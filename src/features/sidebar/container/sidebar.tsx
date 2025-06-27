@@ -2,7 +2,7 @@ import { KIPIcon } from "@/shared";
 import { SidebarNavigation } from "../ui/navigation";
 import { SidebarHeader } from "../ui/header";
 import { SidebarMain } from "../ui/main";
-import { SidebarFooter } from "../ui/footer";
+// import { SidebarFooter } from "../ui/footer";
 import { SidebarLayout } from "../ui/layout";
 
 export type NavigationItem = {
@@ -30,9 +30,9 @@ export function Sidebar({}) {
       <SidebarMain>
         <SidebarNavigation navigationList={navigationList} />
       </SidebarMain>
-      <SidebarFooter>
+      {/* <SidebarFooter>
         <></>
-      </SidebarFooter>
+      </SidebarFooter> */}
     </SidebarLayout>
   );
 }
