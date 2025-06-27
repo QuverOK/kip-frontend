@@ -1,0 +1,17 @@
+export type UserId = string;
+export type RoleId = string;
+export type ResumeId = string;
+export type UniversityId = string;
+export type DegreeId = string;
+export type DirectionId = string;
+export type GroupId = string;
+export type EducationId = string;
+export type TaskId = string;
+export type OrganizationId = string;
+export type UniversityDirectionId = string;
+export type UniversityDegreeId = string;
+export type WorkId = string;
+export type ResponsibilityId = string;
+export type ProjectId = string;
+export type SkillId = string;
+export type SocialNetworkId = string;
