@@ -1,6 +1,7 @@
 export function FaqIcon({ className = "text-black" }: { className?: string }) {
   return (
     <svg
+      className={className}
       width="17"
       height="22"
       viewBox="0 0 17 22"
